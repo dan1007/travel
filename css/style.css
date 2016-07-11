@@ -1,0 +1,521 @@
+
+.container {
+    background-color: #f6f6f6;
+    position:relative;
+}
+
+/*header start */
+.wrap{
+    position: relative;
+    width:100%;
+    height:600px;
+    /*top:-70px;*/
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 670px;
+    z-index: 9998;
+    top:-70px;
+}
+
+.banner .bannerCon {
+    position: relative;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.bannerCon .imgList {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bannerCon .imgList li {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.bannerCon .pre-nex {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 60px;
+    margin-top: -40px;
+    font: bold 40px/60px Simsun;
+    color: #ccc;
+    text-align: center;
+    border: none;
+    background: rgba(0, 0, 0, .30);
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.bannerCon .pre-nex.show {
+    display: inline-block;
+}
+
+.bannerCon .prev {
+    left: 0;
+}
+
+.bannerCon .next {
+    right: 0;
+}
+
+.bannerCon .btnList {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    height: 12px;
+    text-align: center;
+    z-index:9999;
+    _overflow: hidden;
+}
+
+.bannerCon .btnList li {
+    display: inline;
+}
+
+.bannerCon .btnList li span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 6px;
+    background-color: #14829e;
+    cursor: pointer;
+}
+
+.bannerCon .btnList li.select span {
+    background-color: #f30;
+}
+
+.banner-cont-out {
+    width: 386px;
+    height: 228px;
+    border: 5px solid rgba(255, 255, 255, .8);
+    padding: 3px;
+    position: absolute;
+    top: 50%;
+    margin-top: -114px;
+    left: 50%;
+    margin-left: -193px;
+}
+
+.banner-cont-out .banner-cont-in {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-cont-out .banner-cont-in h2 {
+    font-size: 32px;
+    line-height: 72px;
+    color: #8b3e57;
+    font-weight: bold;
+    border-bottom: 1px solid #8b3e57;
+    letter-spacing: 2px;
+}
+
+.banner-cont-out .banner-cont-in h3 {
+    font-size: 24px;
+    color: #8b3e57;
+    font-weight: bold;
+    line-height: 64px;
+    letter-spacing: 2px;
+}
+
+.banner-cont-out .banner-cont-in a {
+    display: block;
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 auto;
+    border: 1px solid #7b7b7b;
+    border-radius: 17px;
+    color:#515151;
+}
+.banner-cont-out .banner-cont-in a:hover{
+    color:#d22539;
+}
+
+/* header end*/
+/*container start*/
+.content {
+    background-color: #f6f6f6;
+}
+
+.search-areas {
+    width: 1000px;
+    height: 140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search-areas .search {
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    position: absolute;
+    margin-top: -28px;
+    z-index: 99999;
+}
+
+.search input[type=search] {
+    width: 500px;
+    height: 56px;
+    border-radius: 28px;
+    box-shadow:2px 2px 2px #ccc ;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 25px;
+    background-color: #fff;
+}
+
+.search button {
+    width: 80px;
+    height: 36px;
+    background-color: #d22539;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+}
+
+.search-areas .areas {
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    left: 50%;
+    margin-left: -120px;
+}
+
+.areas .typeA a, .areas .typeB a {
+    color:#555;
+    display: inline-block;
+    margin: .1em .5em;
+}
+
+.areas .typeA .select, .areas .typeB .select {
+    color: #d71d2e;
+}
+
+.travel-area {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.travel-area .tj {
+    margin: 0 auto 70px;
+}
+
+.travel-area .tj h2 {
+    /*margin:0 auto;*/
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.travel-area .tj img {
+    display: block;
+    float: left;
+    width: 66%;
+    height: 400px;
+}
+
+.travel-area .tj .areatext {
+    float: right;
+    width: 34%;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.tj .areatext p {
+    margin-top: 130px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #6d6d6d;
+}
+
+.tj .areatext span {
+    font-size: 30px;
+    color: #5c5c5c;
+}
+
+.tj .areatext a {
+    display: block;
+    margin: 40px auto;
+    width: 180px;
+    height: 40px;
+    border-radius: 2px;
+    line-height: 40px;
+    background-color: #d22539;
+    font-size: 16px;
+    color: #fff;
+}
+
+.lx {
+    width: 1000px;
+}
+
+.lx h2 {
+    margin: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.lx .lxText {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.lx .lxArea {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.lx .lxArea .areaList {
+    width: 32%;
+    height: 360px;
+    /*margin-right: 2%; /!* 最右面的图片margin不对*!/*/
+    /*display: inline-block; /!*让三个div（图片）并列在一排,会出现间距*!/*/
+    float:left;
+    /*background: url(../img/faxian-UK.jpg);*/
+    position: relative;
+}
+
+.lx .lxArea .areaList img{
+    width:100%;
+    height:100%;
+}
+
+.lx .lxArea .areaList:nth-child(2) {
+    margin: 0 2%;
+}
+.lx .lxArea .seaimg:nth-child(1){
+    float:left;
+    width:66%;
+    height:360px;
+    margin:0;
+}
+.lx .lxArea .seaimg:nth-child(2){
+    float:right;
+    width:32%;
+    height:360px;
+    margin:0;
+}
+.lxArea .areaList .detail {
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    bottom: 0;
+}
+
+.lxArea .areaList .detail p {
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*量身定制*/
+.lsdz {
+    width: 100%;
+    height: 500px;
+    margin: 60px auto;
+    background: url(../img/liangshendingzhi.jpg) center center;
+    position: relative;
+}
+
+.lsdz .lsdz-in {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -250px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.lsdz .lsdz-in h2 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.lsdz .lsdz-in p {
+    color: #fff;
+    margin: 10px auto 30px;
+}
+
+.lsdz .lsdz-in a {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 40px;
+}
+
+/*签证服务*/
+.qzfu {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.qzfu h2 {
+    font-size: 36px;
+    color: #666;
+}
+
+.qzfu .continent ul {
+    margin: 30px auto;
+}
+
+.qzfu .continent ul li a {
+    display: block;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.qzfu .continent ul li .select {
+    background-color: #cd2f45;
+    color: #fff;
+}
+
+.slidAreas {
+    width: 100%;
+    height: 660px;
+}
+
+.slidAreas .imgBox {
+    float:left;
+    width: 32%;
+    height: 49%;
+    margin:1% auto;
+    position: relative;
+}
+.slidAreas .select {
+    width: 66%;
+}
+.slidAreas .imgBox img{
+    width:100%;
+    height:100%;
+}
+.slidAreas .imgBox:nth-child(1){
+    /*background: url(../img/qianzheng-France.jpg) center 30%;*/
+    margin-right:2%;
+}
+
+.slidAreas .imgBox:nth-child(4){
+    /*background: url(../img/qianzheng-Spain.jpg) center;*/
+    margin:1% 2%;
+}
+
+.slidAreas .imgBox .countText {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    bottom: 0;
+    padding: 5px auto;
+}
+
+.imgBox .countText p {
+    color: #fff;
+}
+
+.imgBox .countText p span {
+    color: #fff;
+}
+
+/*攻略/游记*/
+.gl-yj {
+    width: 1000px;
+    margin: 70px auto 0;
+    text-align: center;
+}
+
+.gl-yj h2 {
+    font-size: 36px;
+    color: #666;
+}
+
+.gl-yj .gl-yj-left, .gl-yj .gl-yj-right {
+    width: 49%;
+    margin: 30px 0;
+    padding-bottom: 2%;
+    background-color: #fff;
+}
+
+.gl-yj .gl-yj-left {
+    float: left;
+}
+
+.gl-yj .gl-yj-right {
+    float: right;
+}
+
+.gl-yj .gl-yj-left .tp, .gl-yj .gl-yj-right .tp {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.gl-yj .gl-yj-left .tp {
+    background: url(../img/gonglue-Nz1.jpg);
+}
+
+.gl-yj .gl-yj-right .tp {
+    background: url(../img/gonglue-Nz2.jpg);
+}
+
+.gl-yj .gl-yj-left .tp .tx, .gl-yj .gl-yj-right .tp .tx {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: url(../img/gonglue-Nz1-1.jpg) 50% 10%;
+    position: absolute;
+    top: 100%;
+    margin-top: -40px;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.gl-yj .gl-yj-left p, .gl-yj .gl-yj-right p {
+    margin-top: 10%;
+    margin-bottom: 1%;
+    font-size: 16px;
+}
+
+.gl-yj .gl-yj-left span, .gl-yj .gl-yj-right span {
+    font-size: 12px;
+}
+
+/*container end*/

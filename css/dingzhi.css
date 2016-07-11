@@ -1,0 +1,94 @@
+.dz{
+    width:100%;
+    height:800px;
+    position:relative;
+}
+.dz .nav{
+    width:100%;
+    height:700px;
+    background:url(../img/dingzhi.jpg) center;
+
+}
+/* 填写信息*/
+.msgwrap{
+    width:1000px;
+    margin:0 auto;
+}
+.msgwrap .dzmsg{
+    width:500px;
+    height:500px;
+    box-sizing: border-box;
+    border-radius:5px;
+    background-color:rgba(0,0,0,.3);
+    position:absolute;
+    top:50%;
+    padding:20px 30px;
+    margin-top:-250px;
+    /*left:50%;*/
+    /*margin-left:-250px;*/
+    right:30%;
+
+}
+.dzmsg h3{
+    color:#fff;
+    font-size:24px;
+    font-weight:500;
+    letter-spacing:1px;
+    line-height:60px;
+    border-bottom:1px solid;
+}
+.dzmsg .msgTitle{
+    width:27%;
+    /*margin-right: 2%;*/
+    margin:20px 3% 0 0;
+    text-align:right;
+}
+.dzmsg .msgCont{
+    width:70%;
+    margin-top:20px;
+}
+.dzmsg .msgTitle,.dzmsg .msgCont{
+    float:left;
+}
+.dzmsg .msgCont input,.dzmsg .msgCont textarea{
+    height:40px;
+    font-size:14px;
+    border:none;
+    border-radius:5px;
+    outline:none;/*去掉选中input框边框时出现的*/
+    margin:5px 0 ;
+    text-align:center;
+}
+.dzmsg  .msgTitle label a{
+    display:block;
+    height:40px;
+    line-height:40px;
+    color:#fff;
+    font-size:16px;
+    margin:8px 0 ;
+}
+.dzmsg .msgCont #data input{
+    width:140px;
+    line-height:40px;
+    cursor:pointer;
+}
+.dzmsg .msgCont #data span{
+    color:#fff;
+    font-size:16px;
+}
+.dzmsg .msgCont input[type=text]{
+    width:200px;
+}
+.dzmsg .msgSubmit{
+    margin:20px auto;
+    width:180px;
+}
+.dzmsg .msgSubmit input[type=submit]{
+    width:180px;
+    height:40px;
+    background-color:#cd2f45;
+    border-radius:5px;
+    border:none;
+    color:#fff;
+    font-size:16px;
+}

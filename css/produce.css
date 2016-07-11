@@ -1,0 +1,136 @@
+.produce{
+    width:100%;
+    background-color:#f2f2f2;
+}
+.proContent{
+    width:1000px;
+    margin:0 auto;
+}
+.contMenu{
+    width:96%;
+    height:110px;
+    background-color:#fff;
+    margin-top:20px;
+    padding:20px;
+}
+.contMenu .menuL,.contMenu .menuR,.contMenu .menuM{
+    float:left;
+}
+.contMenu .menuL{
+    width:70px;
+    text-align:center;
+}
+.contMenu .menuM{
+    width:60px;
+}
+.contMenu .menuL p,.contMenu .menuR p{
+    margin:5px 0;
+    line-height:20px;
+    color:#1a1a1a;
+}
+.contMenu .menuM a{
+    display:block;
+    width:40px;
+    height:20px;
+    background-color:#cd2f46;
+    color:#fff;
+    margin:5px auto;
+    text-align:center;
+    line-height:20px;
+}
+.contMenu .menuR p a{
+    display:inline-block;
+    margin:0 5px;
+    color:#1a1a1a;
+    padding:0 5px;
+    line-height:20px;
+}
+.contMenu .menuR p .select{
+    background-color:#cd2f46;
+    color:#fff;
+}
+.contNav{
+    width:98%;
+    height:30px;
+    background-color:#fff;
+    padding:15px 10px;
+    line-height:30px;
+    margin:10px 0 20px;
+}
+.contNav a{
+    /*display:inline-block;*/
+    margin:0 15px;
+    line-height:20px;
+    color:#1a1a1a;
+}
+.contNav .select{
+    color:#cd2f46;
+}
+.contBox{
+    width:100%;
+    margin:10px auto;
+}
+.contBox .boxImg{
+    width:66%;
+    height:400px;
+}
+.contBox .boxImg img{
+    width:100%;
+    height:100%;
+}
+.contBox .boxText{
+    width:34%;
+    height:400px;
+    background-color:#fff;
+    letter-spacing:2px;
+}
+.contBox .boxImg,.contBox .boxText{
+    float:left;
+}
+.boxText .textTop{
+    border-bottom: 1px  dashed #999999;
+}
+.boxText .textTop h2{
+    font-size:22px;
+    color:#cd2f46;
+    font-weight:500;
+    text-align:center;
+    margin:20px 0;
+}
+.boxText .textTop .date{
+    margin:15px auto;
+    text-align:center;
+}
+.boxText .textTop p {
+    color:#656565;
+    line-height:1.5em;
+}
+.boxText .textTop .date,.textTop .boxText span{
+    color:#111;
+}
+.textBottom .price,.textBottom .more{
+    width:50%;
+    float:left;
+    text-align:center;
+}
+.textBottom .price p{
+    font-size:12px;
+    margin-top:40px;
+}
+.textBottom .price h2{
+    font-size:36px;
+    color:#fe7f00;
+    font-weight:500;
+}
+.textBottom .more a{
+    display:block;
+    width:120px;
+    height:40px;
+    background-color:#cd3045;
+    font-size:22px;
+    line-height:40px;
+    color:#fff;
+    margin-top:45px;
+    border-radius:3px;
+    font-weight:400;
+}

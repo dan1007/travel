@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>定制页面</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/dingzhi.css"/>
+    <link rel="stylesheet" href="css/nav-foot.css"/>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/dingzhi.js"></script>
+    <script src="js/nav.js"></script>
+    <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+</head>
+<body>
+<div class="dz">
+    <a class="toTop" id="toTop" href="javascript:;"><img src="img/top.png"/>置顶</a>
+    <div class="nav">
+        <div class="nav-cont">
+            <header class="clearFix">
+                <a href="#"><img src="img/navlogo.png"/></a>
+                <ul id="navUl">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="produce.html">产品</a></li>
+                    <li><a href="strategy.html">攻略</a></li>
+                    <li class="relat-hot dzpage">
+                        <a href="javascript:;">量身定制</a>
+                        <span class="hot">hot</span>
+                    </li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </header>
+        </div>
+        <div class="msgwrap">
+            <div class="dzmsg">
+                <form action="" method="post" enctype="">
+                    <h3>填写定制信息</h3>
+
+                    <div class="clearFix">
+                        <div class="msgTitle">
+                            <label for="user"><a href="javascript:;">*姓名</a></label>
+                            <label for="phoneNum"><a href="javascript:;">*联系电话</a></label>
+                            <label for="data"><a href="javascript:;">出游日期</a></label>
+                            <label for="address"><a href="javascript:;">*出游目的地</a></label>
+                            <label for="peopleNum"><a href="javascript:;">*出游人数</a></label>
+                            <label for="sug"><a href="javascript:;">意见和要求</a></label>
+                        </div>
+                        <div class="msgCont">
+                            <div>
+                                <input type="text" name="user" id="user"/>
+                            </div>
+                           <div>
+                               <input type="text" name="number" id="phoneNum"/>
+                           </div>
+                            <div id="data">
+                                <input type="text" id="sdate" class="Wdate" value="" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',readOnly:false,maxDate:'#F{$dp.$D(\'edate\')}'})" />
+                                <span>至</span>
+                                <input type="text" id="edate" class="Wdate" value="" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',readOnly:false,minDate:'#F{$dp.$D(\'sdate\')}',startDate:'#F{$dp.$D(\'sdate\',{d:+1})}'})" />
+                            </div>
+                            <div>
+                                <input type="text" name="address" id="address"/>
+                            </div>
+                            <div>
+                                <input type="text" name="peopleNum" id="peopleNum"/>
+                            </div>
+                            <div>
+                                <textarea name="sug" id="sug"></textarea>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="msgSubmit">
+                       <input type="submit" value="提交信息" name="submit"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer class="dzfoot">
+            <div class="foot clearFix">
+                <div class="footL clearFix">
+                    <div class="codeL">
+                        <img src="img/dingyuehao2weima.png"/>
+
+                        <p>订阅号二维码</p>
+                    </div>
+                    <div class="codeR">
+                        <img src="img/dingyuehao2weima.png"/>
+
+                        <p>服务号二维码</p>
+                    </div>
+                </div>
+                <div class="footM">
+                    <p><a href="">公司资质荣誉 </a> <a href="">首批北京市4A旅行社 </a></p>
+
+                    <p><a href="">第十三届首都旅游紫禁杯先进集体 </a> <a href="">第十四届首都旅游紫禁杯先进集体 </a></p>
+                    <ul>
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">联系方式</a></li>
+                        <li><a href="">投诉建议</a></li>
+                        <li><a href="">合作单位</a></li>
+                    </ul>
+                </div>
+                <div class="footR">
+                    <p>电话：51336808</p>
+
+                    <p>邮编：100062&nbsp;&nbsp;传真：51337666 </p>
+
+                    <p>邮箱：info@newworldtours.cn</p>
+
+                    <p>地址：北京市东城区广渠门内大街安化北里1号长保大厦13层</p>
+                </div>
+            </div>
+            <div class="copy">
+                <p>新世界国旅网版权所有&nbsp;&nbsp;&nbsp;京ICP备12346335号</p>
+            </div>
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>

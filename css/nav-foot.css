@@ -1,0 +1,243 @@
+/* 初始化开始*/
+
+body, div, dl, dt, dd, ul,ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+input, textarea, select, button {
+    font: 14px Verdana, Helvetica, Arial, sans-serif;
+    border: 1px solid #999;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.clear {
+    clear: both
+}
+
+img {
+    border: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.clearFix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+input, button, textarea {
+    outline: none;
+}
+
+/*初始化结束*/
+
+
+/*回到顶部*/
+
+.toTop{
+    display:none;
+    position:fixed;
+    width:40px;
+    height:50px;
+    bottom:20px;
+    right:20px;
+    text-align:center;
+    z-index:9999;
+}
+.toTop img{
+    display:block;
+    margin-left:2px;
+    width:30px;
+}
+/*正文开始*/
+.nav {
+    width: 100%;
+    height: 70px;
+}
+
+.nav-cont {
+    background-color: rgba(255, 255, 255, .8);
+    position: relative;
+    z-index: 9999;
+}
+
+.nav-cont header {
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+    /*position:relative;*/
+    /*z-index:9999;*/
+}
+
+.nav-cont header img {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    width: 163px;
+    height: 45px;
+}
+
+.nav-cont header #navUl {
+    float: right;
+}
+
+.nav-cont header #navUl li {
+    line-height: 66px;
+    margin: 0 15px;
+}
+
+.nav-cont header #navUl li a {
+    display: block;
+    font-size: 16px;
+    color: #292929;
+    padding: 0 10px;
+    border-top: 4px solid rgba(210, 37, 57, 0);
+}
+
+.nav-cont header #navUl li .select, .nav-cont header #navUl li a:hover {
+    color: #d22539;
+    border-top: 4px solid rgba(210, 37, 57, 1);
+    text-decoration: none;
+}
+
+.nav-cont header #navUl .relat-hot {
+    position: relative;
+}
+
+header #navUl li .hot {
+    display: block;
+    width: 30px;
+    height: 16px;
+    background-color: #d22539;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 17px;
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*footer start*/
+.footer {
+    width: 100%;
+    height: 140px;
+    background-color: #4d4d4d;
+    /*margin-top:10%;*/
+    padding-top: 20px;
+    position: relative;
+}
+
+.foot {
+    width: 1000px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.foot p {
+    font-size: 12px;
+    color: #ededed;
+}
+
+.foot p a {
+    color: #ededed;
+}
+
+.foot .footL, .foot .footM {
+    float: left;
+}
+
+.foot .footR {
+    float: right;
+}
+
+.foot .footL .codeL, .foot .footL .codeR {
+    float: left;
+    margin-right: 20px;
+}
+
+.foot .footL img {
+    width: 80px;
+    height: 80px;
+}
+
+.footM {
+    margin: 0 30px;
+}
+
+.footM p {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.footM p a {
+    font-size: 12px;
+    color: #ededed;
+}
+
+.footM ul {
+    float: left;
+    margin-top: 10px;
+}
+
+.footM ul li {
+    margin-right: 15px;
+}
+
+.footM ul li a {
+    font-size: 16px;
+    color: #ededed;
+}
+
+.footR p {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.copy {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #666666;
+}
+
+.copy p {
+    font-size: 12px;
+    line-height: 30px;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+/*footer end*/
